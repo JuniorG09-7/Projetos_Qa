@@ -29,8 +29,5 @@ O teste automatizado realiza as seguintes ações:
 ```bash
 npm install
 
-### 📸 Evidências
-
-![Teste de sucesso](evidencias/formulario-sucesso.png)
 
 
