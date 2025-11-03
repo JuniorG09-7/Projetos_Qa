@@ -1,0 +1,13 @@
+{
+  "name": "cypress-web-tests",
+  "version": "1.0.0",
+  "description": "Teste de formulário local com Cypress - projeto para portfólio",
+  "scripts": {
+    "test": "npx cypress run",
+    "cypress:open": "npx cypress open",
+    "cypress:run": "npx cypress run --headless"
+  },
+  "devDependencies": {
+    "cypress": "^12.0.0"
+  }
+}

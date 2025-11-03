@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Formulário Teste</title>
+  </head>
+  <body>
+    <h1>Formulário de Cadastro</h1>
+    <form id="form">
+      <input id="name" placeholder="Nome" />
+      <input id="email" placeholder="Email" />
+      <button type="submit">Enviar</button>
+    </form>
+    <div id="result"></div>
+
+    <script>
+      const form = document.getElementById('form');
+      form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        document.getElementById('result').innerText = `Nome: ${name}, Email: ${email}`;
+      });
+    </script>
+  </body>
+</html>
